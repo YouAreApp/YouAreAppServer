@@ -28,11 +28,16 @@ cmake-build-release/
 
 ## File-based project format:
 *.iws
+*.db
+*.pyc
 
 ## Plugin-specific files:
 
 # IntelliJ
 out/
+venv/
+.db
+migrations/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
